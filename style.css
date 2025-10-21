@@ -184,6 +184,9 @@ h3 {
 p.ab {
     text-align: center;
     margin-top: 0;
+    margin-left: auto;
+    margin-right: 1rem;
+    max-width: 5.5rem;
 }
 
 
@@ -194,7 +197,7 @@ p.ab {
     text-transform: uppercase;
     padding: 0.5rem 1rem;
     background-color: var(--green);
-    margin-right: 1rem;
+    margin-right: 1.5rem;
     border: 5px outset var(--green);
 }
 
