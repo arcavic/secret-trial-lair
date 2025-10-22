@@ -77,19 +77,20 @@ h1 {
     margin-bottom: 1rem;
 }
 
-#intro-choice button {
+#intro-choice button, #intro-choice a {
+    text-decoration: none;
     font-size: 4rem;
     font-weight: normal;
     margin: 1rem 5rem;
     letter-spacing: 0.5rem;
 }
 
-#intro-choice button:hover {
+#intro-choice button:hover, #intro-choice a:hover {
     transform: scale(1.2);
     text-shadow: 0 0 1rem rgba(255, 255, 255, 0.1);
 }
 
-#intro-choice button:active {
+#intro-choice button:active, #intro-choice a:active {
     transform: scale(0.9);
 }
 
